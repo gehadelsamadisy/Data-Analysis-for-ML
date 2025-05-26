@@ -98,10 +98,8 @@ The goal of this project is to provide a comprehensive workflow for analyzing an
 
 - `Explanatory_DA.ipynb`: Jupyter notebook for Explanatory Data Analysis.
 - `Exploratory_DA_.ipynb`: Jupyter notebook for Exploratory Data Analysis.
-- `Feature_Eng_&_Ensemble.ipynb`: Notebook for feature engineering and ensemble methods.
 - `README.md`: This documentation file.
 - `YourData.csv`: Example dataset used in the notebooks.
-- PDF summaries and drafts for reference.
 
 ---
 
