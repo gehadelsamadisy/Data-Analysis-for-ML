@@ -62,7 +62,7 @@ Used another dataset, `YourData.csv`, to perform the exploratory analysis.
 
 # Explanatory and Exploratory Data Analysis Project
 
-This project demonstrates the process of understanding and preparing data for machine learning through **Explanatory Data Analysis (EDA)** and **Exploratory Data Analysis (EDA)**. It includes code and documentation for univariate, bivariate, and multivariate analyses, as well as feature engineering and selection.
+This project demonstrates the process of understanding and preparing data for machine learning through **Explanatory Data Analysis (EDA)** and **Exploratory Data Analysis (EDA)**. It includes code and documentation for univariate, bivariate, and multivariate analyses.
 
 ---
 
@@ -78,7 +78,6 @@ This project demonstrates the process of understanding and preparing data for ma
   - [Univariate Analysis](#exploratory-univariate-analysis)
   - [Bivariate Analysis](#exploratory-bivariate-analysis)
   - [Multivariate Analysis](#exploratory-multivariate-analysis)
-- [Feature Engineering and Selection](#feature-engineering-and-selection)
 - [Libraries Used](#libraries-used)
 - [How to Run](#how-to-run)
 - [License](#license)
@@ -138,8 +137,6 @@ Examines interactions among more than two variables.
 - **Pair Plots**: Visualize pairwise relationships for multiple variables.
 - **Principal Component Analysis (PCA)**: Reduce dimensionality and visualize main variance directions.
 - **Parallel Coordinates Plot**: Visualize high-dimensional data.
-- **Feature Engineering**: Create new features (e.g., interaction terms, polynomial features).
-- **Feature Importance (Random Forest)**: Identify most relevant features for prediction.
 
 ---
 
@@ -165,14 +162,6 @@ Exploratory Data Analysis is about discovering patterns, testing hypotheses, and
 - **3D Scatter Plots**: Visualize relationships among three variables at once.
 - **PCA**: Reduce data to two principal components for visualization.
 - **Parallel Coordinates Plot**: Compare multiple features across classes.
-
----
-
-## Feature Engineering and Selection
-
-- **Feature Creation**: New features are engineered (e.g., `age_weight_interaction`, `age_squared`).
-- **Feature Selection**: Random Forest and SelectFromModel are used to identify important features.
-- **Visualization of Feature Importances**: Bar plots show which features contribute most to the model.
 
 ---
 
